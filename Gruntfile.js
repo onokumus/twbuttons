@@ -8,7 +8,7 @@ module.exports = function(grunt){
 		   
     banner: '/**\n' +
             '* <%=pkg.name %> v<%= pkg.version %>\n' +
-            '* Author : <%= pkg.author %> \n' +
+            '* Author : <%= pkg.author.name %> \n' +
             '* date <%= grunt.template.today("dddd, mmmm dS, yyyy, h:MM:ss TT") %>\n' +
             '*/\n',
 

@@ -20,10 +20,14 @@
     "less buttons",
     "bootstrap"
   ],
-  "author": "onokumus",
+  "author": {
+    "name": "onokumus",
+    "url": "http://github.com/onokumus/"
+  },
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-less": "^0.11.4"
+    "grunt-contrib-less": "^0.11.4",
+    "verb": "^0.2.14"
   }
 }
