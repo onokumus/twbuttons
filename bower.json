@@ -1,0 +1,33 @@
+{
+  "name": "buttons",
+  "version": "0.0.1",
+  "authors": [
+    "Osman Nuri Okumus <onokumus@gmail.com>"
+  ],
+  "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
+  "main": "dist/buttons.css",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "buttons",
+    "less",
+    "css",
+    "css buttons",
+    "less buttons",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "onokumus.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "buttons",
+  "version": "0.0.1",
+  "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
+  "main": "dist/buttons.css",
+  "scripts": {
+    "bower": "bower install",
+    "grunt": "grunt",
+    "build": "npm run bower && npm run grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ono"
+  },
+  "keywords": [
+    "buttons",
+    "less",
+    "css",
+    "css buttons",
+    "less buttons",
+    "bootstrap"
+  ],
+  "author": "onokumus",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.4"
+  }
+}
