@@ -10,7 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "ono"
+    "url": "https://github.com/onokumus/buttons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onokumus/buttons/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/onokumus/buttons/blob/master/LICENSE.md"
   },
   "keywords": [
     "buttons",
@@ -24,7 +31,6 @@
     "name": "onokumus",
     "url": "http://github.com/onokumus/"
   },
-  "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-less": "^0.11.4",

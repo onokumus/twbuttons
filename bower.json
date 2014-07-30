@@ -2,8 +2,12 @@
   "name": "buttons",
   "version": "0.0.1",
   "authors": [
-    "Osman Nuri Okumus <onokumus@gmail.com>"
+    "onokumus <onokumus@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onokumus/buttons.git"
+  },
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
   "main": "dist/buttons.css",
   "moduleType": [
@@ -17,8 +21,8 @@
     "less buttons",
     "bootstrap"
   ],
-  "license": "MIT",
-  "homepage": "onokumus.com",
+  "license": "MIT",  
+  "homepage": "https://github.com/onokumus/buttons",
   "ignore": [
     "**/.*",
     "node_modules",
