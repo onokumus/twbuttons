@@ -1,4 +1,4 @@
-# buttons  [![Build Status](ono.png)](ono) [![Dependency Status](https://david-dm.org/onokumus/buttons.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons) [![devDependency Status](https://david-dm.org/onokumus/buttons/dev-status.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons#info=devDependencies)
+# buttons  [![Build Status](https://travis-ci.org/onokumus/buttons.png)](https://travis-ci.org/onokumus/buttons) [![Dependency Status](https://david-dm.org/onokumus/buttons.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons) [![devDependency Status](https://david-dm.org/onokumus/buttons/dev-status.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons#info=devDependencies)
 
 > alexwolfe/Buttons for Twitter Bootstrap 3
 
