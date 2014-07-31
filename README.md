@@ -12,7 +12,7 @@
   * [License](#license)
 
 ### Download
-* Bootstrap 3.2.0 [v0.0.2](https://github.com/onokumus/twbuttons/archive/master.zip)
+* Bootstrap 3.2.0 [v0.0.3](https://github.com/onokumus/twbuttons/archive/master.zip)
 ready `dist` folder your use
 * [npm](https://www.npmjs.org/): `npm install twbuttons`
 * [Bower](http://bower.io/): `bower install twbuttons`
@@ -21,7 +21,7 @@ ready `dist` folder your use
 
 ### Building
 
-#### 0.0.2 Version
+#### 0.0.3 Version
 required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](http://gruntjs.com/getting-started)
 
 ```shell
@@ -49,6 +49,7 @@ required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](htt
 
 ## Release History
 **DATE**       **VERSION**   **CHANGES**                          
+* 2014-07-31   v0.0.3        fixed npm main,fixed bower main      
 * 2014-07-31   v0.0.2        rename repo,npm options,bower options
 * 2014-07-30   v0.0.1        First commmit.                       
 
