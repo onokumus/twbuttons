@@ -1,0 +1,73 @@
+header > h3 {
+  padding: 1rem;
+  margin:0;
+  color: #999;
+  float: left;
+}
+header > a {
+  float: right;
+  margin: 0 1rem;
+}
+.nav-main {
+  background-color: #3072B3;
+}
+.nav-main ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav-main li,
+.nav-main a {
+  display: block;
+}
+.nav-main li {}
+.nav-main a {
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.nav-main a:hover,
+.nav-main a:focus {
+  background-color: rgba(0,0,0,.1);
+}
+.nav-main h3 {
+  padding: 1.5rem;
+  margin: 0;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+
+main {background: #ECF0F1;}
+main section {
+  background: #fff;
+  margin: 30px -15px;
+  padding: 15px;
+}
+
+footer {  
+  padding: 20px 0;
+  background: #444;
+  color: #999;
+}
+
+@media (min-width:768px) {
+  .nav-main {
+    position: fixed;
+    width: 250px;
+    top:0;
+    bottom: 0;
+    left:0;
+    overflow-y: auto;
+  }
+  .nav-main.collapse {
+    height: auto !important;
+    display: inherit !important;
+  }
+  main {
+    margin-left: 250px;
+  }
+}
+
