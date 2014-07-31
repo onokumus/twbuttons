@@ -29,7 +29,7 @@ required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](htt
 {%= docs('classes') %}
 
 ### Demo
- * not ready yet
+ * [See](http://onokumus.github.io/buttons/)
 
 
 ## Release History
