@@ -9,7 +9,7 @@
     "url": "https://github.com/onokumus/twbuttons.git"
   },
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
-  "main": "dist/buttons.css",
+  "main": "dist/twbuttons.css",
   "moduleType": [
     "node"
   ],
