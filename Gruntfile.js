@@ -19,7 +19,7 @@ module.exports = function(grunt){
       },
       develop: {
         files: {
-          'dist/buttons.css': 'src/buttons.less'
+          'dist/<%=pkg.name %>.css': 'src/<%=pkg.name %>.less'
         }
       },
       production: {
@@ -27,7 +27,7 @@ module.exports = function(grunt){
           compress: true
         },
         files: {
-          'dist/buttons.min.css': 'src/buttons.less'
+          'dist/<%=pkg.name %>.min.css': 'src/<%=pkg.name %>.less'
         }
       }
     }

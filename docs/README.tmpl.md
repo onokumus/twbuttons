@@ -12,8 +12,10 @@
   * [License](#license)
 
 ### Download
- * Bootstrap 3.2.0 [v{%= version %}](https://github.com/onokumus/{%= name %}/archive/master.zip)
+* Bootstrap 3.2.0 [v{%= version %}](https://github.com/onokumus/{%= name %}/archive/master.zip)
 ready `dist` folder your use
+* [npm](https://www.npmjs.org/): `npm install {%= name %}`
+* [Bower](http://bower.io/): `bower install {%= name %}`
 
 
 
@@ -29,7 +31,7 @@ required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](htt
 {%= docs('classes') %}
 
 ### Demo
- * [See](http://onokumus.github.io/buttons/)
+ * [See](http://onokumus.github.io/{%= name %}/)
 
 
 ## Release History

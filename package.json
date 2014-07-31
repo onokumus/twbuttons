@@ -1,9 +1,9 @@
 {
-  "name": "buttons",
-  "version": "0.0.1",
-  "homepage": "https://github.com/onokumus/buttons",
+  "name": "twbuttons",
+  "version": "0.0.2",
+  "homepage": "https://github.com/onokumus/twbuttons",
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
-  "main": "dist/buttons.css",
+  "main": "dist/twbuttons.css",
   "scripts": {
     "bower": "bower install",
     "grunt": "grunt",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onokumus/buttons.git"
+    "url": "https://github.com/onokumus/twbuttons.git"
   },
   "bugs": {
-    "url": "https://github.com/onokumus/buttons/issues"
+    "url": "https://github.com/onokumus/twbuttons/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/onokumus/buttons/blob/master/LICENSE.md"
+    "url": "https://github.com/onokumus/twbuttons/blob/master/LICENSE.md"
   },
   "keywords": [
     "buttons",

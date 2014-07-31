@@ -1,4 +1,4 @@
-# buttons  [![Build Status](https://travis-ci.org/onokumus/buttons.png)](https://travis-ci.org/onokumus/buttons) [![Dependency Status](https://david-dm.org/onokumus/buttons.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons) [![devDependency Status](https://david-dm.org/onokumus/buttons/dev-status.svg?theme=shields.io)](https://david-dm.org/onokumus/buttons#info=devDependencies)
+# twbuttons  [![Build Status](https://travis-ci.org/onokumus/twbuttons.png)](https://travis-ci.org/onokumus/twbuttons) [![Dependency Status](https://david-dm.org/onokumus/twbuttons.svg?theme=shields.io)](https://david-dm.org/onokumus/twbuttons) [![devDependency Status](https://david-dm.org/onokumus/twbuttons/dev-status.svg?theme=shields.io)](https://david-dm.org/onokumus/twbuttons#info=devDependencies)
 
 > alexwolfe/Buttons for Twitter Bootstrap 3
 
@@ -12,18 +12,20 @@
   * [License](#license)
 
 ### Download
- * Bootstrap 3.2.0 [v0.0.1](https://github.com/onokumus/buttons/archive/master.zip)
+* Bootstrap 3.2.0 [v0.0.2](https://github.com/onokumus/twbuttons/archive/master.zip)
 ready `dist` folder your use
+* [npm](https://www.npmjs.org/): `npm install twbuttons`
+* [Bower](http://bower.io/): `bower install twbuttons`
 
 
 
 ### Building
 
-#### 0.0.1 Version
+#### 0.0.2 Version
 required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](http://gruntjs.com/getting-started)
 
 ```shell
-    $ git clone https://github.com/onokumus/buttons.git yourfoldername
+    $ git clone https://github.com/onokumus/twbuttons.git yourfoldername
     $ cd yourfoldername
     $ npm install
     $ npm run build
@@ -42,12 +44,13 @@ required [node.js](http://nodejs.org/) & [bower](http://bower.io/) & [grunt](htt
 * `btn-wrap`
 
 ### Demo
- * [See](http://onokumus.github.io/buttons/)
+ * [See](http://onokumus.github.io/twbuttons/)
 
 
 ## Release History
-**DATE**       **VERSION**   **CHANGES**   
-* 2014-07-30   v0.0.1        First commmit.
+**DATE**       **VERSION**   **CHANGES**                          
+* 2014-07-31   v0.0.2        rename repo,npm options,bower options
+* 2014-07-30   v0.0.1        First commmit.                       
 
 
 
