@@ -1,6 +1,6 @@
 {
   "name": "twbuttons",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "https://github.com/onokumus/twbuttons",
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
   "main": "dist/twbuttons.css",
