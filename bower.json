@@ -21,7 +21,7 @@
     "less buttons",
     "bootstrap"
   ],
-  "license": "MIT",  
+  "license": "MIT",
   "homepage": "https://github.com/onokumus/twbuttons",
   "ignore": [
     "**/.*",
@@ -31,7 +31,7 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "bootstrap": "~3.2.0"
+  "dependencies": {
+    "bootstrap": "^3.3.0"
   }
 }
