@@ -16,10 +16,7 @@
   "bugs": {
     "url": "https://github.com/onokumus/twbuttons/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/onokumus/twbuttons/blob/master/LICENSE.md"
-  },
+  "license": "MIT",
   "keywords": [
     "buttons",
     "less",
