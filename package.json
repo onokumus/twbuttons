@@ -1,17 +1,15 @@
 {
   "name": "twbuttons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/onokumus/twbuttons",
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
-  "main": "dist/twbuttons.css",
+  "style": "dist/twbuttons.css",
   "scripts": {
-    "bower": "bower install",
-    "grunt": "grunt",
-    "build": "npm run bower && npm run grunt"
+    "build": "grunt less"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onokumus/twbuttons.git"
+    "url": "git+https://github.com/onokumus/twbuttons.git"
   },
   "bugs": {
     "url": "https://github.com/onokumus/twbuttons/issues"
@@ -25,12 +23,35 @@
     "less buttons",
     "bootstrap"
   ],
-  "author": {
-    "name": "onokumus",
-    "url": "http://github.com/onokumus/"
-  },
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-less": "^1.4.0"
+  },
+  "verb": {
+    "layout": "default",
+    "toc": {
+      "collapsible": true,
+      "method": "preWrite"
+    },
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "metismenu",
+        "label2srt"
+      ]
+    },
+    "reflinks": [
+      "metismenu",
+      "label2srt"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

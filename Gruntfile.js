@@ -1,21 +1,23 @@
 'use strict';
 
-module.exports = function(grunt){
-  
-  grunt.initConfig({
-  pkg: grunt.file.readJSON('package.json'),
-  bower: grunt.file.readJSON('.bowerrc'),
-		   
-    banner: '/**\n' +
-            '* <%=pkg.name %> v<%= pkg.version %>\n' +
-            '* Author : <%= pkg.author.name %> \n' +
-            '* date <%= grunt.template.today("dddd, mmmm dS, yyyy, h:MM:ss TT") %>\n' +
-            '*/\n',
+module.exports = function(grunt) {
 
-  less: {
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+
+    banner: '/*\n' +
+      ' * <%= pkg.title || pkg.name %> - v<%= pkg.version %>\n' +
+      ' * <%= pkg.description %>\n' +
+      ' * <%= pkg.homepage %>\n' +
+      ' *\n' +
+      ' * Made by <%= pkg.author %>\n' +
+      ' * Under <%= pkg.license %> License\n' +
+      ' */\n',
+
+    less: {
       options: {
-        paths: '<%= bower.directory %>/bootstrap/less',
-	banner: '<%= banner %>'
+        paths: 'node_modules/bootstrap/less',
+        banner: '<%= banner %>'
       },
       develop: {
         files: {
@@ -24,7 +26,8 @@ module.exports = function(grunt){
       },
       production: {
         options: {
-          compress: true
+          compress: true,
+          banner: '<%= banner %>'
         },
         files: {
           'dist/<%=pkg.name %>.min.css': 'src/<%=pkg.name %>.less'
@@ -32,10 +35,10 @@ module.exports = function(grunt){
       }
     }
   });
-  
-  
+
+
   grunt.loadNpmTasks('grunt-contrib-less');
-  
-    grunt.registerTask('default', ['less']);
+
+  grunt.registerTask('default', ['less']);
 
 };
