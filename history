@@ -1,5 +1,6 @@
 |**DATE**      |**VERSION**   |**CHANGES**|
 |--------------|--------------|-----------|
+|2017-10-23    |v0.1.2        |add unpkg, jsdelivr option, update readme|
 |2017-02-02    |v0.1.1        |update grunt, update readme|
 |2014-07-31    |v0.0.3	      |cdnjs support & rename plugin|
 |2014-07-31    |v0.0.2        |rename repo,npm options,bower options|
