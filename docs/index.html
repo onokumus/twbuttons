@@ -1,0 +1,487 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>twbuttons</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- twbuttons -->
+  <link rel="stylesheet" href="twbuttons.min.css">
+
+  <!-- prism -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css">
+
+  <!-- main -->
+  <link rel="stylesheet" href="main.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+</head>
+
+<body>
+  <div class="clearfix">
+    <header class="visible-xs-block">
+      <h3>twbuttons</h3>
+      <a href="#nav-main" data-toggle="collapse" class="btn btn-default btn-lg btn-rect pull-right"><span class="fa fa-bars"></span></a>
+    </header>
+  </div>
+  <nav class="nav-main collapse" id="nav-main" role="navigation">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a href="https://github.com/onokumus/twbuttons"><span class="fa fa-github"></span> twbuttons Repo</a></li>
+      <li><a href="https://github.com/onokumus/twbuttons/fork"><span class="fa fa-code-fork"></span> Fork</a></li>
+      <li><a href="https://github.com/onokumus/twbuttons/zipball/master"><span class="fa fa-file-archive-o"></span>
+          Download zip</a></li>
+      <li><a href="https://github.com/onokumus/twbuttons/tarball/master"><span class="fa fa-file-archive-o"></span>
+          Download tar.gz</a></li>
+      <li><a href="https://github.com/alexwolfe/Buttons/" target="_blank"><span class="fa fa-external-link"></span>
+          alexwolfe/Buttons</a></li>
+    </ul>
+    <h3>Button Types</h3>
+    <ul>
+      <li><a href="#flat"><span class="fa fa-anchor"></span> Flat</a></li>
+      <li><a href="#rect"><span class="fa fa-anchor"></span> Rectangle</a></li>
+      <li><a href="#grad"><span class="fa fa-anchor"></span> Gradient</a></li>
+      <li><a href="#circle"><span class="fa fa-anchor"></span> Circle</a></li>
+      <li><a href="#3d"><span class="fa fa-anchor"></span> 3D</a></li>
+      <li><a href="#pill"><span class="fa fa-anchor"></span> Pill</a></li>
+      <li><a href="#line"><span class="fa fa-anchor"></span> Line</a></li>
+      <li><a href="#wrap"><span class="fa fa-anchor"></span> Wrap</a></li>
+      <li><a href="#mixins"><span class="fa fa-anchor"></span> Mixins</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="jumbotron">
+      <h1 class="text-center">twbuttons</h1>
+      <p class="text-center text-muted">
+        <em>A CSS button library built with</em> <a href="http://lesscss.org/" target="_blank">{less}</a> <em>for</em>
+        <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap 3</a>
+      </p>
+      <div class="text-center">
+        <small class="text-muted">based on <a href="https://github.com/alexwolfe/Buttons/" target="_blank">alexwolfe/Buttons</a></small>
+      </div>
+      <br>
+      <div class="text-center">
+        <a class="github-button" href="https://github.com/onokumus/twbuttons" data-icon="octicon-star" data-size="large"
+          data-show-count="true" aria-label="Star onokumus/twbuttons on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/onokumus/twbuttons/fork" data-icon="octicon-repo-forked"
+          data-size="large" data-show-count="true" aria-label="Fork onokumus/twbuttons on GitHub">Fork</a>
+        <a class="github-button" href="https://github.com/onokumus/twbuttons/archive/master.zip" data-icon="octicon-cloud-download"
+          data-size="large" aria-label="Download onokumus/twbuttons on GitHub">Download</a>
+      </div>
+    </div>
+
+      <div class="container-fluid">
+
+        <!-- BEGIN FLAT -->
+        <section id="flat">
+          <h3>Flat</h3>
+          <button class="btn btn-flat btn-default">press me</button>
+          <button class="btn btn-flat btn-primary">press me</button>
+          <button class="btn btn-flat btn-info">press me</button>
+          <button class="btn btn-flat btn-success">press me</button>
+          <button class="btn btn-flat btn-warning">press me</button>
+          <button class="btn btn-flat btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-flat btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-flat btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-flat btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-flat btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-flat btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-flat btn-danger"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END FLAT -->
+
+        <!-- BEGIN RECTANGLE -->
+        <section id="rect">
+          <h3>Rectangle</h3>
+          <button class="btn btn-rect btn-default">press me</button>
+          <button class="btn btn-rect btn-primary">press me</button>
+          <button class="btn btn-rect btn-info">press me</button>
+          <button class="btn btn-rect btn-success">press me</button>
+          <button class="btn btn-rect btn-warning">press me</button>
+          <button class="btn btn-rect btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-rect btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-danger"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END RECTANGLE -->
+
+        <!-- BEGIN GRADIENT -->
+        <section id="grad">
+          <h3>Gradient</h3>
+          <button class="btn btn-grad btn-default">press me</button>
+          <button class="btn btn-grad btn-primary">press me</button>
+          <button class="btn btn-grad btn-info">press me</button>
+          <button class="btn btn-grad btn-success">press me</button>
+          <button class="btn btn-grad btn-warning">press me</button>
+          <button class="btn btn-grad btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-grad btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-grad btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-grad btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-grad btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-grad btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-grad btn-danger"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END GRADIENT -->
+
+        <!-- BEGIN CIRCLE -->
+        <section id="circle">
+          <h3>Circle</h3>
+          <button class="btn btn-circle btn-default">press me</button>
+          <button class="btn btn-circle btn-primary">press me</button>
+          <button class="btn btn-circle btn-info">press me</button>
+          <button class="btn btn-circle btn-success btn-xs">press me</button>
+          <button class="btn btn-circle btn-warning btn-sm">press me</button>
+          <button class="btn btn-circle btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-circle btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END CIRCLE -->
+
+        <!-- BEGIN 3D -->
+        <section id="3d">
+          <h3>3D</h3>
+          <button class="btn btn-3d btn-default">press me</button>
+          <button class="btn btn-3d btn-primary">press me</button>
+          <button class="btn btn-3d btn-info">press me</button>
+          <button class="btn btn-3d btn-success btn-xs">press me</button>
+          <button class="btn btn-3d btn-warning btn-sm">press me</button>
+          <button class="btn btn-3d btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-3d btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END 3D -->
+
+        <!-- BEGIN PILL -->
+        <section id="pill">
+          <h3>Pill</h3>
+          <button class="btn btn-pill btn-default">press me</button>
+          <button class="btn btn-pill btn-primary">press me</button>
+          <button class="btn btn-pill btn-info">press me</button>
+          <button class="btn btn-pill btn-success btn-xs">press me</button>
+          <button class="btn btn-pill btn-warning btn-sm">press me</button>
+          <button class="btn btn-pill btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-pill btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END PILL -->
+
+        <!-- BEGIN LINE -->
+        <section id="line">
+          <h3>Line</h3>
+          <button class="btn btn-line btn-default">press me</button>
+          <button class="btn btn-line btn-primary">press me</button>
+          <button class="btn btn-line btn-info">press me</button>
+          <button class="btn btn-line btn-success">press me</button>
+          <button class="btn btn-line btn-warning">press me</button>
+          <button class="btn btn-line btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-line btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-danger"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END LINE -->
+
+        <!-- BEGIN WRAP -->
+        <section id="wrap">
+          <h3>Wrap</h3>
+          <h4>Wrap Circle Button</h4>
+          <span class="btn-wrap"><button class="btn btn-circle btn-gad btn-default">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-gad btn-primary">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-gad btn-info">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-gad btn-success btn-xs">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grd btn-warning btn-sm">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grd btn-danger btn-lg">press me</button></span>
+          <div>
+            <pre><code class="language-markup">
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-gad btn-default"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-gad btn-primary"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-gad btn-info"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-gad btn-success btn-xs"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grd btn-warning btn-sm"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grd btn-danger btn-lg"&gt;press me&lt;/button&gt;&lt;/span&gt;
+	</code></pre>
+          </div>
+          <hr>
+          <h4>Wrap Circle&Gradient Button</h4>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-default">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-primary">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-info">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-success btn-xs">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-warning btn-sm">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-circle btn-grad btn-danger btn-lg">press me</button></span>
+          <div>
+            <pre><code class="language-markup">
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-default"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-primary"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-info"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-success btn-xs"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-warning btn-sm"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-circle btn-grad btn-danger btn-lg"&gt;press me&lt;/button&gt;&lt;/span&gt;
+	</code></pre>
+          </div>
+          <hr>
+          <h4>Wrap Pill&Gradient Button</h4>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-default">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-primary">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-info">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-success btn-xs">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-warning btn-sm">press me</button></span>
+          <span class="btn-wrap"><button class="btn btn-pill btn-grad btn-danger btn-lg">press me</button></span>
+          <div>
+            <pre><code class="language-markup">
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-default"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-primary"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-info"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-success btn-xs"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-warning btn-sm"&gt;press me&lt;/button&gt;&lt;/span&gt;
+&lt;span class="btn-wrap"&gt;&lt;button class="btn btn-pill btn-grad btn-danger btn-lg"&gt;press me&lt;/button&gt;&lt;/span
+	</code></pre>
+          </div>
+        </section>
+        <!-- END WRAP -->
+
+        <!-- BEGIN MIXINS -->
+        <section id="mixins">
+          <h3>Mixins</h3>
+          <h4>Gradient&Rectangle Button</h4>
+          <button class="btn btn-rect btn-grad btn-default">press me</button>
+          <button class="btn btn-rect btn-grad btn-primary">press me</button>
+          <button class="btn btn-rect btn-grad btn-info">press me</button>
+          <button class="btn btn-rect btn-grad btn-success">press me</button>
+          <button class="btn btn-rect btn-grad btn-warning">press me</button>
+          <button class="btn btn-rect btn-grad btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-rect btn-grad btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-grad btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-grad btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-grad btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-grad btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-rect btn-grad btn-danger"&gt;press me&lt;/button&gt;&gt;
+	</code></pre>
+          </div>
+          <hr>
+          <h4>Line&Rectangle Button</h4>
+          <button class="btn btn-line btn-rect btn-default">press me</button>
+          <button class="btn btn-line btn-rect btn-primary">press me</button>
+          <button class="btn btn-line btn-rect btn-info">press me</button>
+          <button class="btn btn-line btn-rect btn-success">press me</button>
+          <button class="btn btn-line btn-rect btn-warning">press me</button>
+          <button class="btn btn-line btn-rect btn-danger">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-line btn-rect btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-rect btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-rect btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-rect btn-success"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-rect btn-warning"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-line btn-rect btn-danger"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+          <h4>Pill&Line Button</h4>
+          <button class="btn btn-pill btn-line btn-default">press me</button>
+          <button class="btn btn-pill btn-line btn-primary">press me</button>
+          <button class="btn btn-pill btn-line btn-info">press me</button>
+          <button class="btn btn-pill btn-line btn-success btn-xs">press me</button>
+          <button class="btn btn-pill btn-line btn-warning btn-sm">press me</button>
+          <button class="btn btn-pill btn-line btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-pill btn-line btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-line btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-line btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-line btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-line btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-line btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+          <h4>Pill&Gradient Button</h4>
+          <button class="btn btn-pill btn-grad btn-default">press me</button>
+          <button class="btn btn-pill btn-grad btn-primary">press me</button>
+          <button class="btn btn-pill btn-grad btn-info">press me</button>
+          <button class="btn btn-pill btn-grad btn-success btn-xs">press me</button>
+          <button class="btn btn-pill btn-grad btn-warning btn-sm">press me</button>
+          <button class="btn btn-pill btn-grad btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-pill btn-grad btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-grad btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-grad btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-grad btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-grad btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-pill btn-grad btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+
+          <h4>Circle&Line Button</h4>
+          <button class="btn btn-circle btn-line btn-default">press me</button>
+          <button class="btn btn-circle btn-line btn-primary">press me</button>
+          <button class="btn btn-circle btn-line btn-info">press me</button>
+          <button class="btn btn-circle btn-line btn-success btn-xs">press me</button>
+          <button class="btn btn-circle btn-line btn-warning btn-sm">press me</button>
+          <button class="btn btn-circle btn-line btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-circle btn-line btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-line btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-line btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-line btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-line btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-line btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+
+          <h4>Circle&Gradient Button</h4>
+          <button class="btn btn-circle btn-grad btn-default">press me</button>
+          <button class="btn btn-circle btn-grad btn-primary">press me</button>
+          <button class="btn btn-circle btn-grad btn-info">press me</button>
+          <button class="btn btn-circle btn-grad btn-success btn-xs">press me</button>
+          <button class="btn btn-circle btn-grad btn-warning btn-sm">press me</button>
+          <button class="btn btn-circle btn-grad btn-danger btn-lg">press me</button>
+
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-circle btn-grad btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-grad btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-grad btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-grad btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-grad btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-circle btn-grad btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+
+          <h4>Pill&3d Button</h4>
+          <button class="btn btn-3d btn-pill btn-default">press me</button>
+          <button class="btn btn-3d btn-pill btn-primary">press me</button>
+          <button class="btn btn-3d btn-pill btn-info">press me</button>
+          <button class="btn btn-3d btn-pill btn-success btn-xs">press me</button>
+          <button class="btn btn-3d btn-pill btn-warning btn-sm">press me</button>
+          <button class="btn btn-3d btn-pill btn-danger btn-lg">press me</button>
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-3d btn-pill btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-pill btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-pill btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-pill btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-pill btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-pill btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+          <hr>
+
+          <h4>Circle&3d Button</h4>
+          <button class="btn btn-3d btn-circle btn-default">press me</button>
+          <button class="btn btn-3d btn-circle btn-primary">press me</button>
+          <button class="btn btn-3d btn-circle btn-info">press me</button>
+          <button class="btn btn-3d btn-circle btn-success btn-xs">press me</button>
+          <button class="btn btn-3d btn-circle btn-warning btn-sm">press me</button>
+          <button class="btn btn-3d btn-circle btn-danger btn-lg">press me</button>
+
+          <div>
+            <pre><code class="language-markup">
+&lt;button class="btn btn-3d btn-circle btn-default"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-circle btn-primary"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-circle btn-info"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-circle btn-success btn-xs"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-circle btn-warning btn-sm"&gt;press me&lt;/button&gt;
+&lt;button class="btn btn-3d btn-circle btn-danger btn-lg"&gt;press me&lt;/button&gt;
+	</code></pre>
+          </div>
+        </section>
+        <!-- END MIXINS -->
+
+      </div>
+
+      <footer>
+        <div class="text-center">Buttons maintained by <a href="https://github.com/onokumus">onokumus</a></div>
+        <div class="text-center">Published with <a href="http://pages.github.com/">GitHub Pages</a></div>
+
+      </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1669764-16"></script>
+  <script>
+    if (location.hostname === "onokumus.com") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-1669764-16');
+    }
+  </script>
+
+
+</body>
+
+</html>
