@@ -1,4 +1,4 @@
-/*
+/*!
  * twbuttons - v0.1.2
  * alexwolfe/Buttons for Twitter Bootstrap 3
  * https://github.com/onokumus/twbuttons
@@ -55,8 +55,8 @@
 }
 .btn-grad.btn-default:active,
 .btn-grad.btn-default.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #eee;
   color: #bbbbbb;
@@ -91,8 +91,8 @@
 }
 .btn-grad.btn-primary:active,
 .btn-grad.btn-primary.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #337ab7;
   color: #1d4568;
@@ -127,8 +127,8 @@
 }
 .btn-grad.btn-success:active,
 .btn-grad.btn-success.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #5cb85c;
   color: #357935;
@@ -163,8 +163,8 @@
 }
 .btn-grad.btn-warning:active,
 .btn-grad.btn-warning.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #f0ad4e;
   color: #c77c11;
@@ -199,8 +199,8 @@
 }
 .btn-grad.btn-danger:active,
 .btn-grad.btn-danger.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #d9534f;
   color: #a02622;
@@ -235,8 +235,8 @@
 }
 .btn-grad.btn-info:active,
 .btn-grad.btn-info.active {
-  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
-  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px #fff;
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px #fff;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   background: #5bc0de;
   color: #2390b0;
@@ -781,3 +781,4 @@ fieldset[disabled] .btn-line.btn-info.active {
   border: 1px solid #46b8da;
   top: 5px;
 }
+/*# sourceMappingURL=twbuttons.css.map */
