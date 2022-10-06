@@ -1,6 +1,6 @@
 {
   "name": "twbuttons",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/onokumus/twbuttons",
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
   "style": "dist/twbuttons.min.css",
@@ -8,8 +8,7 @@
   "unpkg": "dist/twbuttons.min.css",
   "jsdelivr": "dist/twbuttons.min.css",
   "scripts": {
-    "build": "grunt less",
-    "css": "lightningcss --minify --nesting --bundle --targets '>= 0.25%' --sourcemap src/twbuttons.less -o output.css"
+    "build": "grunt less"
   },
   "repository": "onokumus/twbuttons",
   "bugs": {
@@ -32,33 +31,6 @@
   "devDependencies": {
     "grunt": "^1.5.3",
     "grunt-contrib-less": "^3.0.0"
-  },
-  "verb": {
-    "layout": "default",
-    "toc": {
-      "collapsible": false,
-      "method": "preWrite"
-    },
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "related": {
-      "list": [
-        "metismenu",
-        "metismenujs",
-        "elektron",
-        "chl"
-      ]
-    },
-    "reflinks": [
-      "metismenu",
-      "metismenujs",
-      "elektron",
-      "chl"
-    ]
   },
   "peerDependencies": {
     "bootstrap": "^3.4.1"

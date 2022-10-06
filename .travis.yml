@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - "node"
-  - "6"
-  - "5"
-  - "4"
+  - "18"
+  - "16"
+  - "14"
 before_script:
   - "npm install -g grunt-cli"
 after_script:
