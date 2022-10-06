@@ -5,10 +5,11 @@
   "description": "alexwolfe/Buttons for Twitter Bootstrap 3",
   "style": "dist/twbuttons.min.css",
   "main": "dist/twbuttons.css",
-  "unpkg":"dist/twbuttons.min.css",
-  "jsdelivr":"dist/twbuttons.min.css",
+  "unpkg": "dist/twbuttons.min.css",
+  "jsdelivr": "dist/twbuttons.min.css",
   "scripts": {
-    "build": "grunt less"
+    "build": "grunt less",
+    "css": "lightningcss --minify --nesting --bundle --targets '>= 0.25%' --sourcemap src/twbuttons.less -o output.css"
   },
   "repository": "onokumus/twbuttons",
   "bugs": {
@@ -27,10 +28,10 @@
     "less buttons",
     "bootstrap"
   ],
-  "author": "Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)",
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-less": "^2.0.0"
+    "grunt": "^1.5.3",
+    "grunt-contrib-less": "^3.0.0"
   },
   "verb": {
     "layout": "default",
@@ -60,6 +61,6 @@
     ]
   },
   "peerDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.4.1"
   }
 }
