@@ -60,7 +60,7 @@ grunt
 ```
 
 ## Demo
-[https://onokumus.com/twbuttons/](https://onokumus.com/twbuttons/)
+[https://onokumus.github.io/twbuttons/](https://onokumus.github.io/twbuttons/)
 
 Contains a simple HTML file to demonstrate twbuttons.
 
